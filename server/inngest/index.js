@@ -6,6 +6,9 @@ export const inngest = new Inngest({
 
 });
 
+//ingest functions 
+
+//inngest function to create user in database
 const syncUserCreation = inngest.createFunction(
     {
         id: "sync-user-from-clerk",
