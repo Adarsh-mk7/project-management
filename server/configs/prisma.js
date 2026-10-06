@@ -15,7 +15,11 @@ neonConfig.webSocketConstructor = ws;
 // declare global {
 //   var prisma: PrismaClient | undefined
 // }
-
+// Type definitions
+// declare global {
+//   var prisma: PrismaClient | undefined
+// }
+//prisma js is used as extra frame work
 const connectionString = `${process.env.DATABASE_URL}`;
 
 const adapter = new PrismaNeon({ connectionString });
