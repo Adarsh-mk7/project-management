@@ -6,7 +6,7 @@ import { serve } from 'inngest/express';
 import { inngest, functions } from './inngest/index.js';
 
 const app = express();
-
+//using inngest webhooks to conect clerk and prisma
 app.use(express.json());
 app.use(cors());
 app.use(clerkMiddleware());
